@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Ascending Order</h2>
+
+<p>The ascending order of this string is...</p>
+
+<p id="demo"></p>
+
+<script>
+const points = [30, 99, 0, 963, 5, 122, 44444, 81, 27];
+points.sort(function(a, b){return a-b});
+document.getElementById("demo").innerHTML = points;
+</script>
+
+</body>
+</html>
